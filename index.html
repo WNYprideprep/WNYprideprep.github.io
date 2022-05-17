@@ -5,71 +5,75 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
-        body {
-            font-family: 'rubik', 'rubik', 'rubik';            
-          }</style>
-        <style>
-        body {
-            background-size: 1300Px 125Px;
-            background-repeat: no-repeat;
-            Background-image: url"banner.png";
-        }
-        </style>
-        <style> 
+         body {
+    font-family: 'rubik', 'rubik', 'rubik';            
+    background-size: 1300Px 125Px;
+    background-repeat: no-repeat;
+    Background-image: url(https://i.stack.imgur.com/3HYKK.jpg);
+    }
+  .aligncenter {
+    text-align: center;
+    }
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    padding: 25px;
+    }
+  .container img {
+    display: block;
+    margin-left: 100%;
+    margin-right: 100%;
+    }
+
+  .container .btn {
+    position: absolute;
+    top: 85%;
+    left: 142%;
+    margin-left: -3%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    }
+  .container .btn:hover {
+    background-color: Black;
+    }
+  .collapsible {
+      background-color: #777;
+      color: white;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+    }
+    .active, 
+    .collapsible:hover {
+      background-color: rgb(85, 85, 85);
+    }
+    .content {
+      padding: 0 18px;
+      display: none;
+      overflow: hidden;
+      background-color: #f1f1f1;
+    }
         </style>
     </head>
-    <style>
-        .aligncenter {
-            text-align: center;
-        }
-        </style>
+    <body>
     <p class="aligncenter">
         <img src="http://www.pridecenterwny.org/files/images/template/logo.png" alt="Pride Center of WNY">
-        
-    <body>
-      <style>
-         div {
-        padding: 20px;
-        
-      }
-      .container {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
-}
-
-.container img {
-  display: block;
-  margin-left: 100%;
-  margin-right: 100%;
-  }
-
-.container .btn {
-  position: absolute;
-  top: 85%;
-  left: 141%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.container .btn:hover {
-  background-color: Black;
-}
-      </style>
-    <div class="container">
-      <img src="banner.jpg" alt="pink welcome" class="center" width="400" hieght="300">
-      <button class="btn" href="#section1">+</button>
-    </p>
-    
-    </div>
+        <div class="container">
+      <img src="file:///C:/Users/jnstg/Pictures/pink%20welcome.png" alt="pink welcome" class="center" width="400" hieght="400">
+     <a href="#section1"><button class="btn">+</button></a></div>
     </p>
         <h2 id="section1">Be Prepared read below.</h2>
         <p>this tool kit's goal is to provide information about healthcare prepairation and safety and it's goal is to 
